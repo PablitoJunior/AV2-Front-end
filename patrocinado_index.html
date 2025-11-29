@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+    <html lang="pt-br">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Me Patrocina - Meus Patrocinados</title>
+            <link rel="stylesheet" href="patrocinado_style.css">
+            <script src="patrocinado_js.js"></script>
+        </head>
+
+        <body>
+
+                    <!-- ===================== HEADER ===================== -->
+            <header class="header">
+                <div class="header-left">
+                    <h1 class="site-title">Parceria360</h1>
+                </div>
+
+                <nav class="header-menu">
+                    <a href="../pagina inicial/index.html">Home</a>
+                    <a href="#">Sobre</a>
+                    <a href="../contato/contato.html">Contatos</a>
+                    <button class="btn-conta">Minha conta</button>
+                </nav>
+            </header>
+
+                    <!-- ===================== CONTEÚDO ===================== -->
+            <main class="container">
+
+                <h2 class="titulo-secao">Meus de Patrocinados</h2>
+
+                        <!-- Barra de ferramentas -->
+                <div class="toolbar">
+
+                    <input type="text" id="campoPesquisa" class="input-pesquisa" placeholder="Pesquisar">
+
+                          <!-- Área de filtros -->
+            <section class="filtros">
+                <div class="ordenar">
+                    <select>
+                        <option>Ordenar por / Filtros</option>
+                            <option>Data</option>
+                            <option>Categoria</option>
+                    </select>
+                </div>
+            </section>
+
+                            <!-- Botões adicionais solicitados -->
+                <div class="acoes">
+                    <button class="btn-acao" id="btnListar">Listar</button>
+                    <button class="btn-acao" id="btnAdicionar">Adicionar</button>
+                    <button class="btn-acao" id="btnEditar">Editar</button>
+                    <button class="btn-acao" id="btnExcluir">Excluir</button>
+                </div>
+
+        </div>
+
+        <!-- ===================== LISTA ===================== -->
+            <table class="tabela">
+
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th>ID</th>
+                        <th>Projeto</th>
+                        <th>Categoria</th>
+                        <th>Data</th>
+                        <th>Ações</th>
+                    </tr>
+                </thead>
+
+                <tbody id="listaPatrocinados">
+
+                <!-- Os itens serão inseridos via JavaScript -->
+
+                </tbody>
+            </table>
+
+            </main>
+
+                    <!-- ===================== FOOTER ===================== -->
+            <footer class="footer">
+                 © Le Monsieur Systèmes - Todos os direitos reservados - 2025
+            </footer>
+
+            
+        </body>
+    </html>
