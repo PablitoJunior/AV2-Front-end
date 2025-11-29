@@ -3,7 +3,7 @@
    - cadastro/cadastro_js.js
    - patrocinado/patrocinado_js.js
    - contato/contato_js.js (vazio)
-   - pagina inicial/js.js (vazio)
+  - pagina-inicial/js.js (vazio)
 */
 
 /* ------------------ cadastro/cadastro_js.js ------------------ */
@@ -57,5 +57,5 @@ document.addEventListener('DOMContentLoaded', function () {
     if (btnExcluir) btnExcluir.onclick = () => { alert("Selecione um item para excluir."); };
   }
 
-  /* contato JS e pagina inicial JS são vazios — mantidos caso adicione funções no futuro */
+  /* contato JS e pagina-inicial JS são vazios — mantidos caso adicione funções no futuro */
 });
