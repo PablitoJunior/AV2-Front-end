@@ -1,0 +1,131 @@
+/* ======== GERAL ======== */
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f2f2f2;
+}
+
+/* ======== HEADER ======== */
+.header {
+    background: #0044d9;
+    color: white;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-menu a {
+    color: white;
+    margin: 0 18px;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.header-menu a:hover {
+    text-decoration: underline;
+}
+
+.btn-conta {
+    background: white;
+    border: none;
+    padding: 7px 18px;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    color: #0044d9;
+}
+
+.btn-conta:hover {
+    opacity: 0.8;
+}
+
+/* ======== CONTAINER ======== */
+.container {
+    width: 95%;
+    margin: 20px auto;
+}
+
+.titulo-secao {
+    color: #0044d9;
+    margin-bottom: 20px;
+}
+
+/* ======== BARRA DE FERRAMENTAS ======== */
+.toolbar {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    background: #d1d1d1;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.input-pesquisa {
+    padding: 8px;
+    width: 250px;
+}
+
+.btn-filtro {
+    padding: 8px 12px;
+    cursor: pointer;
+    background: white;
+}
+
+.acoes .btn-acao {
+    padding: 8px 12px;
+    cursor: pointer;
+    background: #0044d9;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.acoes .btn-acao:hover {
+    opacity: 0.8;
+}
+
+/* ======== TABELA ======== */
+.tabela {
+    width: 100%;
+    margin-top: 10px;
+    border-collapse: collapse;
+}
+
+.tabela thead {
+    background: #b3b3b3;
+    font-weight: bold;
+}
+
+.tabela th, .tabela td {
+    padding: 12px 10px;
+}
+
+.tabela tbody tr:nth-child(odd) {
+    background: #e5e5e5;
+}
+
+.tabela tbody tr:nth-child(even) {
+    background: #cfcfcf;
+}
+
+/* ======== ÍCONES ======== */
+.icone {
+    width: 25px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.icone:hover {
+    opacity: 0.7;
+}
+
+/* ======== FOOTER ======== */
+.footer {
+    margin-top: 30px;
+    background: #0044d9;
+    color: white;
+    text-align: center;
+    padding: 12px;
+}
